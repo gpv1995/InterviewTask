@@ -1,0 +1,30 @@
+2022-10-23 10:13:01,602[INFO] testing.demo.DemoApplication [main] Starting DemoApplication using Java 1.8.0_311 on Praveens-MacBook-Air.local with PID 71037 (/Users/praveenvarma/Documents/demo 4/target/classes started by praveenvarma in /Users/praveenvarma/Documents/demo 4)
+2022-10-23 10:13:01,604[INFO] testing.demo.DemoApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-10-23 10:13:02,275[INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-10-23 10:13:02,356[INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 74 ms. Found 1 JPA repository interfaces.
+2022-10-23 10:13:02,870[INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2022-10-23 10:13:02,879[INFO] org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2022-10-23 10:13:02,879[INFO] org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-23 10:13:03,040[INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2022-10-23 10:13:03,041[INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1394 ms
+2022-10-23 10:13:03,243[INFO] org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-10-23 10:13:03,332[INFO] org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.11.Final
+2022-10-23 10:13:03,459[INFO] org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-10-23 10:13:03,515[INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2022-10-23 10:13:03,919[INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2022-10-23 10:13:03,939[INFO] org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-10-23 10:13:04,387[INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-10-23 10:13:04,395[INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-10-23 10:13:04,683[WARN] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-10-23 10:13:05,166[INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2022-10-23 10:13:05,188[INFO] testing.demo.DemoApplication [main] Started DemoApplication in 4.037 seconds (JVM running for 4.782)
+2022-10-23 10:13:19,403[INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-10-23 10:13:19,405[INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2022-10-23 10:13:19,413[INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Completed initialization in 8 ms
+2022-10-23 10:13:19,602[DEBUG] testing.demo.Service.myService [http-nio-8080-exec-1] ......tesing looging frameworkkk2
+2022-10-23 10:13:52,263[INFO] org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(10)-127.0.0.1] Application shutdown requested.
+2022-10-23 10:13:52,293[INFO] org.apache.catalina.core.StandardService [RMI TCP Connection(10)-127.0.0.1] Stopping service [Tomcat]
+2022-10-23 10:13:52,297[INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [RMI TCP Connection(10)-127.0.0.1] Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-10-23 10:13:52,315[INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [RMI TCP Connection(10)-127.0.0.1] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-10-23 10:13:52,323[INFO] com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(10)-127.0.0.1] HikariPool-1 - Shutdown initiated...
+2022-10-23 10:13:52,331[INFO] com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(10)-127.0.0.1] HikariPool-1 - Shutdown completed.
