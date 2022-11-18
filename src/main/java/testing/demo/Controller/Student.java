@@ -8,15 +8,29 @@ public class Student {
     public String id;
 	@JsonProperty
     public String name;
-    
-    public Student() {
-    	
-    }
-	public Student(String id, String name) {
+
+	private String section;
+
+	public Student() {
+
+	}
+
+	public Student(String id, String name,String section) {
 		super();
 		this.id = id;
 		this.name = name;
+		this.section = section;
 	}
+
+	public String getSection() {
+		return section;
+	}
+	public void setSection(String section) {
+		this.section = section;
+	}
+
+
+
 	public String getId() {
 		return id;
 	}
