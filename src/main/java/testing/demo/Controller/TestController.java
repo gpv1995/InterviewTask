@@ -53,7 +53,6 @@ public class TestController {
 	 @PostMapping("/postemp1")
 	 public Employes setemp1(@RequestBody Employes emp)
 	 {
-		 
 		return emp;
 	 }
 	 
