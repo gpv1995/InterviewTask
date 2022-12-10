@@ -8,3 +8,26 @@
 2022-11-18 08:19:09,666[WARN] com.zaxxer.hikari.pool.HikariPool [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h12m1s723ms).
 2022-11-18 09:04:08,060[WARN] com.zaxxer.hikari.pool.HikariPool [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=44m58s393ms).
 2022-11-18 09:09:43,541[WARN] com.zaxxer.hikari.pool.HikariPool [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m35s482ms).
+2022-12-09 21:43:47,397[INFO] testing.demo.DemoApplication [main] Starting DemoApplication using Java 18.0.1.1 on Praveens-Air.attlocal.net with PID 20467 (/Users/praveenvarma/Documents/javapro/InterviewTask/target/classes started by praveenvarma in /Users/praveenvarma/Documents/javapro/InterviewTask)
+2022-12-09 21:43:47,398[INFO] testing.demo.DemoApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-12-09 21:43:47,684[INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-09 21:43:47,706[INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 17 ms. Found 1 JPA repository interfaces.
+2022-12-09 21:43:47,944[INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8082 (http)
+2022-12-09 21:43:47,950[INFO] org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2022-12-09 21:43:47,950[INFO] org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-12-09 21:43:48,001[INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2022-12-09 21:43:48,001[INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 581 ms
+2022-12-09 21:43:48,120[INFO] org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-09 21:43:48,146[INFO] org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.11.Final
+2022-12-09 21:43:48,211[INFO] org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-12-09 21:43:48,250[INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2022-12-09 21:43:48,432[INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2022-12-09 21:43:48,444[INFO] org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-12-09 21:43:48,768[INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-09 21:43:48,773[INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-09 21:43:48,912[WARN] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-12-09 21:43:49,069[INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8082 (http) with context path ''
+2022-12-09 21:43:49,074[INFO] testing.demo.DemoApplication [main] Started DemoApplication in 1.851 seconds (JVM running for 2.217)
+2022-12-09 21:43:59,516[INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-12-09 21:43:59,521[INFO] com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2022-12-09 21:43:59,531[INFO] com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
