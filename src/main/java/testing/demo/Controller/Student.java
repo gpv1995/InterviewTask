@@ -9,6 +9,9 @@ public class Student {
 	@JsonProperty
     public String name;
 
+	@JsonProperty
+    public String classname;
+	
 	private String section;
 
 	public Student() {
