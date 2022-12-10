@@ -17,7 +17,7 @@ public class Myconfig {
     }
 
     @Bean
-    public IbeanB IbeanBimp13(){
+    public IbeanB IbeanB(){
         return new IbeanBimp1();
     }
 	
