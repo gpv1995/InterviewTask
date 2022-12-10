@@ -20,6 +20,11 @@ public class Myconfig {
     public testbean testbean(){
         return new testbean();
     }
+	
+	@Bean
+    public testbean testbean123(){
+        return new testbean();
+    }
 
 	
 
