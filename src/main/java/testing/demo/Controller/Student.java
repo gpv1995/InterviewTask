@@ -27,7 +27,7 @@ public class Student {
 
 	public void getOldData()
 	{
-		System.out.println("old Data");
+		System.out.println("old main Data");
 	}
 
 	public void getNData()
