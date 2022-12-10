@@ -22,7 +22,7 @@ public class Myconfig {
     }
 	
 	@Bean
-    public testbean testbean(){
+    public testbean testbean1(){
         return new testbean();
     }
 	
