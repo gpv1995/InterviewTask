@@ -31,6 +31,12 @@ public class Myconfig {
         return new testbean();
     }
 
+    @Bean
+    public testbean testbeantestingpush(){
+        return new testbean();
+    }
+
+
 	
 
 }
