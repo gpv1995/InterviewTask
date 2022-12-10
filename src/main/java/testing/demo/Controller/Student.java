@@ -32,7 +32,7 @@ public class Student {
 
 	public void getNData()
 	{
-		System.out.println("y Data");
+		System.out.println("z Data");
 	}
 
 	public String getSection() {
