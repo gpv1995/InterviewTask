@@ -30,6 +30,11 @@ public class Student {
 		System.out.println("old Data");
 	}
 
+	public void getNData()
+	{
+		System.out.println("n Data");
+	}
+
 	public String getSection() {
 		return section;
 	}
