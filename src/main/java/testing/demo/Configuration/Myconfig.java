@@ -20,11 +20,7 @@ public class Myconfig {
     public testbean testbean(){
         return new testbean();
     }
-	
-	@Bean
-    public testbean testbean1(){
-        return new testbean();
-    }
+
 	
 
 }
