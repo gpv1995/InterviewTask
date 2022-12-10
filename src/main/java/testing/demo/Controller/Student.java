@@ -17,6 +17,11 @@ public class Student {
 	public Student() {
 
 	}
+	
+	public void getData()
+	{
+	System.out.println("getData:");	
+	}
 
 	public Student(String id, String name,String section) {
 		super();
