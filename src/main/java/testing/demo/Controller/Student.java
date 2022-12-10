@@ -25,6 +25,11 @@ public class Student {
 		this.section = section;
 	}
 
+	public void getOldData()
+	{
+		System.out.println("old Data");
+	}
+
 	public String getSection() {
 		return section;
 	}
