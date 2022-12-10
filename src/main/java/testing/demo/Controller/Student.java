@@ -10,7 +10,7 @@ public class Student {
     public String name;
 
 	@JsonProperty
-    public String classname1;
+    public String classname2;
 	
 	private String section;
 
