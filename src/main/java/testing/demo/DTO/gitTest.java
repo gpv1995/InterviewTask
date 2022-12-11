@@ -6,7 +6,7 @@ public class gitTest {
 
     }
 
-    public void test6()
+
     }
 
     }
