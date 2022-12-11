@@ -30,6 +30,16 @@ public class Student {
 		this.section = section;
 	}
 
+	public void getOldData()
+	{
+		System.out.println("old main old Data");
+	}
+
+	public void getNData()
+	{
+		System.out.println("z Data");
+	}
+
 	public String getSection() {
 		return section;
 	}
