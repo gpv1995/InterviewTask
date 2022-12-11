@@ -6,4 +6,9 @@ public class gitDTO {
     {
 
     }
+
+    public void test()
+    {
+
+    }
 }
