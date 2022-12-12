@@ -23,12 +23,19 @@ public class myService {
 	
 	
 	 Logger logger = LoggerFactory.getLogger(myService.class);
-	 
-	 
 	    
 	 
 	 @Autowired
 	    private EmployeeRepo repository;
+
+    @Autowired
+	public datafinder finder;
+
+
+	public List<Employes> getEmp(String name)
+	 {
+		 return finder.getData(name);
+	 }
 	 
 	 
 	 
@@ -38,8 +45,6 @@ public class myService {
 
 
 	    public List<Employes> getAllEmployes() {
-	    	
-	   
 	    	return repository.findAll();
 	    	}
 	    

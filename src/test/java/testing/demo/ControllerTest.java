@@ -1,6 +1,6 @@
 package testing.demo;
 
-import static org.junit.Assert.assertNotNull;
+
 
 import java.net.URI;
 
@@ -20,18 +20,21 @@ public class ControllerTest {
 	
 
 	
-	@Test
-	@DisplayName("controller test")
-	void testController(){
-   TestRestTemplate restTemplate =new TestRestTemplate();
-	URI targetUrl = UriComponentsBuilder.fromUriString("http://localhost:8080/allemployes")
-	.build()
-	.encode()
-	.toUri();
+//	@Test
+//	@DisplayName("controller test")
+//	void testController(){
+//   TestRestTemplate restTemplate =new TestRestTemplate();
+//	URI targetUrl = UriComponentsBuilder.fromUriString("http://localhost:8080/allemployes")
+//	.build()
+//	.encode()
+//	.toUri();
+//
+//	String message =restTemplate.getForObject(targetUrl, String.class);
+//
+//    //assertNotNull(message);
+//	}
 
-	String message =restTemplate.getForObject(targetUrl, String.class);
-	
-    //assertNotNull(message);
-	}
+
+
 	
 }
