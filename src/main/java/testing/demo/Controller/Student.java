@@ -17,7 +17,12 @@ public class Student {
 	public Student() {
 
 	}
-	
+
+	public void test1(){
+		System.out.println();
+	}
+
+
 	public void getData()
 	{
 	System.out.println("getData:");	
@@ -29,6 +34,7 @@ public class Student {
 		this.name = name;
 		this.section = section;
 	}
+
 
 	public void getOldData()
 	{
