@@ -21,13 +21,13 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 
 public class Demo {
 	public static void main(String args[]) throws StreamReadException, DatabindException, IOException {
-		
-		
-	     	 Date date = new Date();  
-		    SimpleDateFormat formatter = new SimpleDateFormat("MMddyyyy");  
-		    String strDate= formatter.format(date);  
-		    System.out.println(strDate);  
-		    
+		 		Date date = new Date();
+		    SimpleDateFormat formatter = new SimpleDateFormat("MMddyyyy");
+		    String strDate= formatter.format(date);
+		    System.out.println(strDate);
+
+			//demo
+
 
 		File[] listOfFiles = new File("/Users/praveenvarma/Documents/demo 4/src/main/resources/jsonfiles").listFiles();
 		for (File file : listOfFiles) {
@@ -41,7 +41,7 @@ public class Demo {
 					System.out.println(file.getName());
 					System.out.println(s1.getName());
 				}
-				
+
 			}
 		}
 	}
