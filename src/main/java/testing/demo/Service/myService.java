@@ -23,10 +23,7 @@ public class myService {
 	
 	
 	 Logger logger = LoggerFactory.getLogger(myService.class);
-	 
-	 
-	    
-	 
+
 	 @Autowired
 	    private EmployeeRepo repository;
 	 
@@ -64,9 +61,11 @@ public class myService {
 	    
 	    public void deletebyid(int id)
 	    {
-	    	
 	    	repository.deleteById(id);
 	    }
+
+		public void test123(){
+		}
 
 
 }
