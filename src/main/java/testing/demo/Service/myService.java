@@ -36,10 +36,8 @@ public class myService {
      private IbeanB IbeanBimp1;
 	     
 
-
+            // getAllEmployes
 	    public List<Employes> getAllEmployes() {
-	    	
-	   
 	    	return repository.findAll();
 	    	}
 	    
