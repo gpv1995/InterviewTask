@@ -45,10 +45,7 @@ public class myService {
 	    
 	    
 	    
-	    public Employes savingemp(Employes empss){
-	    	
-	    	logger.info("emps.....");
-	    	
+	    public Employes savingemp(Employes empss){	    	
 	    	return repository.save(empss);
 	    }
 	    
