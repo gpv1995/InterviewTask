@@ -19,7 +19,7 @@ import testing.demo.nosuchbeanexp.IbeanB;
 @Service
 public class myService {
 	
-	private int a =10;
+	private int a =30;
 	
 	
 	 Logger logger = LoggerFactory.getLogger(myService.class);
